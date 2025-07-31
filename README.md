@@ -1,12 +1,12 @@
 # Radar_Data_Visulizer
-This is a simple Radar data visualization tool made for visualizing radar data from DIY radars especially arduino radars with HC SR04 ultrasonic sensor.
+This is a simple Radar data visualization tool made for visualizing radar data from DIY radars.
 
 ### `rdv( title = String , refreash_rate = Int , data_visualization_scope = Int , max_distance = Int ):`
-`rdv()` is the class intialization. It accepts three inputs explained below :-
-- The `title` parameter has a `String` datatype and is the title of window. The defaut value of this parameter is `radar_visualizer`.
-- The `refreash_rate` parameter has a `Int` datatype and is the refresh rate of the screen. The defaut value of this parameter is `0.00125`.
-- The `data_visualization_scope` parameter has a `Int` datatype and is amount data lines displayed at once. The defaut value of this parameter is `30`.
-- The `max_distance` parameter has a `Int` datatype and is maximum distance the radar can detect. The defaut value of this parameter is `180`.
+`rdv()` is the class initialization. It accepts three inputs explained below:-
+- The `title` parameter has a `String` datatype and is the title of the window. The default value of this parameter is `radar_visualizer`.
+- The `refreash_rate` parameter has an `Int` datatype and is the refresh rate of the screen. The default value of this parameter is `0.00125`.
+- The `data_visualization_scope` parameter has an `Int` datatype and is the amount of data lines displayed at once. The default value of this parameter is `30`.
+- The `max_distance` parameter has an `Int` datatype and is the maximum distance the radar can detect. The default value of this parameter is `180`.
 
 ### `.start():`
 The `start()` method internally runs the the`.__run()` method which begins the GUI interface. 
@@ -42,6 +42,7 @@ for i in range(0, 180):
 
 ```
 # Demonstration
-https://github.com/user-attachments/assets/41118aba-22fd-4dbd-b413-07314cf93d0a
 
-##### Note: The program might take sometime after terminating to close down but it can also be stopped earlier than that with crtl + C without any issues.
+https://github.com/user-attachments/assets/f6611542-a3ae-4c52-862a-ec4592973d62
+
+##### Note: The program might take sometime after terminating to close down, but it can also be stopped earlier than that with crtl + C without any issues.
