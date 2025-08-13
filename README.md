@@ -23,7 +23,7 @@ The buttons present on the GUI of the tool are described below,
 ## Installation
 This tool can be easily installed with `pip` using this command
 ```python
-pip install 
+pip install https://github.com/SSRWuhan/Radar_Data_Visualizer/releases/download/v0.1.0/radar_data_visualizer-0.1.0-py3-none-any.whl
 ```
 
 # Example
